@@ -1,7 +1,6 @@
 body{
     background-color: rgb(43, 20, 20);
     color: white;
-    font-family: poppinsregular;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
@@ -34,6 +33,7 @@ a{
 a:hover{
     color: #e58a1f;
     transition: 0.3 all;
+    font-size: 30px;
 }
 
 h1{
@@ -51,7 +51,6 @@ main{
 h2{
     font-size: 56px;
     line-height: 10px;
-    font-family: poppinsmedium;
 }
 
 span{
@@ -62,7 +61,6 @@ p{
     text-align: justify;
     line-height: 20px;
     max-width: 500px;
-    font-family: poppinslight;
 }
 
 img{
@@ -96,17 +94,16 @@ input{
 }
 
 footer{
-    font-family: poppinslight;
     padding: 15px;
     margin-bottom: 0;
-    font-size: 10px;
+    font-size: 15px;
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #8d4f4f;
     color: white;
-    text-align: right;
+    text-align: center;
 }
 
 article{
